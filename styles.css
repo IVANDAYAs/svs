@@ -1,0 +1,410 @@
+/*html{
+	scroll-behavior: smooth;
+	overflow: hidden;
+}	*/
+p{
+	font-family: 'Montserrat', sans-serif;
+}
+h1{
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
+
+
+	/*Navigation bar*/
+
+#navigation{
+	background-color: /*#0779e4*/ black;
+	/*padding:1% 5% 1% 1%;*/
+
+}
+#navigation img{
+	border-radius: 100%;
+}
+#navigation h4{
+	font-family: 'Righteous', cursive;
+	color: white;
+	padding-top: 2%;
+
+}
+.container-fluid{
+	padding: 0% 5% 0% 7%;
+}
+.nav-link{
+	font-family: 'Montserrat Alternates', sans-serif;
+
+}
+.navbar{
+	padding-top: 0%;
+	padding-bottom: 0%;
+}
+
+
+
+		/*HOME*/
+#home{
+	background-image: url("homeBg.jpg");
+	background-repeat: no-repeat;
+	background-size: fill;
+	padding: 10% 4% 10% 4%;
+}
+.homeLogo{
+	padding-bottom: 4%;
+}
+#home h1{
+	font-family: 'Righteous', cursive;
+	letter-spacing: 4px;
+	font-size: 4em;
+	padding-bottom: 2%;
+	opacity: 90%;
+	color: #BA922D;
+	-webkit-text-stroke: 2px white;  
+
+}
+#home h4{
+	font-family: 'Montserrat Alternates', sans-serif;
+	color: white;
+	-webkit-text-stroke: 0.7px #BA922D;  
+	
+
+}
+/*.home-row{
+	padding:5% 5% 5% 5%;
+
+}*/
+.homeRowLeft{
+	padding: /*5% 40% 5% 0%*/ 8% 0% 5% 0%;
+	text-align: center;
+	color: white;
+	
+}
+.button{
+	padding-top: 3%;
+}
+.homeRowRight{
+	padding-left: 10%;
+}
+
+
+			/*ABOUT*/
+#about{
+	padding: 5% 4% 6% 4%;
+	background-image: url("aboutBg.jpg");
+}
+.name{
+	color: blue;
+}
+.aboutRow{
+	padding:5% 5% 0% 5%;
+}
+#about h1{
+	text-align: center;
+	padding-top:  5%; 
+	color: #BA922D;
+}
+.aboutLeft{
+	padding-top: 1%;
+ 	text-align: center;
+}
+.naming{
+	padding-top: 3%;
+	color: #0779e4;
+}
+.aboutDescription{
+	font-size: 1.2em;
+	padding-right: 0%;
+	color: black;
+}
+.founderImage{
+	width: 10em;
+	border-radius: 100%;
+}
+
+
+
+			/*SERVICES*/
+#service{
+	background-color: black;
+	color: black;
+	padding: 7% 4% 4% 4%;
+	text-align: center;
+}
+
+#service p{
+	text-align: justify;
+	font-size: 1.5em;
+	padding: 3% 20% 3% 20%;
+	color: white;
+}
+#service h1{
+	color: #BA922D;
+	text-align: center;
+	padding-top:  5%;
+	padding-bottom: 3%; 
+}
+#service h4{
+	color: grey;
+}
+.thunder{
+	color: white;
+	animation: mymove 1s infinite;
+}
+
+@keyframes mymove {
+  from {color: white;}
+  to {color: pink;}
+}
+
+
+
+			/*CLIENTS*/
+#clients{
+	background-color:white	 ;
+	text-align: center;
+	color: black; 
+	padding: 8% 6% 6% 4%;
+
+}
+#clients h4{
+	padding-top: 1%;
+	color: grey;
+}
+
+#clients h3{
+	text-align: center;
+	color: black;
+}
+#clients h1{
+	text-align: center;
+	color: #BA922D;
+}
+.carousel-item{
+	padding: 7% 15%;
+	color: black;
+}
+.icon{
+	color: #0779e4;
+	font-size: 2em;
+}
+
+
+			/*CONTACT*/
+#contact{
+	background-color: black;
+	padding: 8% 4% 4% 4%;
+}
+hr{
+	height:2px;
+	border-width:0;
+	background-color:grey;
+	opacity: 0%;
+}
+#contact h1{
+	color: #BA922D;
+	/*-webkit-text-stroke: 0.5px white;  */
+}
+#contact strong{
+	color: white;
+	text-decoration: underline ;
+}
+.formQuery{
+	text-align: left;
+	padding: 4% 0% 4% 20% ;
+	color: white;
+}
+.socialIcons{
+text-align: center;
+
+}
+.size{
+	margin: 20px;
+	font-size: 2em; 
+}
+.contactRight{
+	padding: 4% 8% 4% 10% ;
+	color: white;
+}
+#footer{
+	background-color: #BA922D;
+	color: white;
+	text-align: center;
+	padding: 1% 15%;
+
+}
+/*phone media break point*/
+@media(max-width: 992px)
+{
+.navbar-toggler{
+	font-size: 3em;
+}
+.navLogo{
+	width: 5em;
+	height: 3em;
+}
+.navbar-brand{
+	font-size: 1em;
+}
+.nav-link{
+	font-size: 2em;
+}
+
+/*home*/
+
+#home{
+	padding-bottom: 5%;
+}
+.homeRowLeft{
+	text-align: center;
+	padding:25% 0% 50% 0%;
+}
+.homeRowLeft h1{
+	font-size: 6em;
+	padding-top: 6%;
+	padding-bottom: 5%;
+}
+.homeRowLeft h4{
+	font-size: 2.5em;
+	padding-bottom: 5%;
+}
+.buttonHome{
+	font-size: 2em;
+	padding: 2%;
+
+}
+.button{
+	padding-top: 3%;
+}
+
+.homeLogo{
+	width: 10em;
+	height: 8em;
+}
+
+  /*ABOUT*/
+#about{
+	text-align: center;
+	padding-bottom: 10%;
+}
+#about h1{
+	font-size: 4em;
+}
+.founderImage{
+	width: 20em;
+	height: 20em;
+}
+.naming{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.naming h4{
+	font-size: 2.5em;
+}
+.naming h6{
+	font-size: 2em;
+}
+.aboutDescription{
+	font-size: 2em;
+	padding-left: 5%;
+	padding-right: 5%;
+
+}
+
+       /*SERVICES*/
+#service{
+	padding-bottom: 10%;
+}
+#service h1{
+	font-size: 4em;
+}
+#service p{
+	font-size: 2.5em;
+	padding: 1% 10% 1% 10%;
+}
+.thunder{
+	width: 8em;
+	height: 8em;
+	padding-top: 5%;
+
+
+}
+#service h4{
+	font-size: 3em;
+	/*padding-bottom: 5%;*/
+}
+
+
+
+		/*CLIENTS*/
+
+#clients h1{
+	font-size: 4em;
+}
+#clients p {
+	font-size: 2em;
+}
+#clients h3 {
+	font-size: 3em;
+	padding-top: 5%;
+	padding-bottom: 10%;
+}
+#clients h4{
+	padding-top: 4%;
+	font-size: 2.5em;
+	padding-bottom: 5%;
+}
+.client{
+	width: 8em;
+	height: 8em;
+
+}
+
+		/*CONTACT*/
+
+#contact h1 {
+	font-size: 4em;
+	padding-bottom: 5%;
+}
+hr{
+	height:2px;
+	border-width:0;
+	background-color:grey;
+	opacity: 100%;
+}
+.formQuery{
+	text-align: center;
+	padding: 4% 5% 4% 5% ;
+	font-size: 1em;
+}
+.formClass input{
+	font-size: 3em;
+}
+.formClass textarea{
+	font-size: 3em;
+
+}
+.formClass label{
+	font-size: 2em;
+
+}
+#contact h4 {
+	font-size: 1.5em;
+
+}
+.contactRight{
+	font-size: 2em;
+}
+#contact .btn{
+	font-size: 3em;
+
+}
+.buttonContact{
+	padding-top: 7%;
+}
+.socialIcons{
+	text-align: center;
+}
+.size{
+	padding: 5% 4% 5% 4%;
+}
+}
