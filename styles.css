@@ -82,6 +82,9 @@ h1{
 .button{
 	padding-top: 3%;
 }
+.button button{
+	background-color:#BA922D;
+}
 .homeRowRight{
 	padding-left: 10%;
 }
@@ -145,6 +148,7 @@ h1{
 }
 #service h4{
 	color: grey;
+	padding-top: 4%;
 }
 .thunder{
 	color: white;
@@ -200,6 +204,7 @@ hr{
 	background-color:grey;
 	opacity: 0%;
 }
+
 #contact h1{
 	color: #BA922D;
 	/*-webkit-text-stroke: 0.5px white;  */
@@ -236,11 +241,11 @@ text-align: center;
 @media(max-width: 992px)
 {
 .navbar-toggler{
-	font-size: 3em;
+	font-size: 2em;
 }
 .navLogo{
-	width: 5em;
-	height: 3em;
+	width: 4em;
+	height: 4em;
 }
 .navbar-brand{
 	font-size: 1em;
@@ -252,28 +257,36 @@ text-align: center;
 /*home*/
 
 #home{
-	padding-bottom: 5%;
+	
+	background-image: url("homebg2.jpeg");
+	background-size: contain;
+	background-position: center;
 }
 .homeRowLeft{
 	text-align: center;
-	padding:25% 0% 50% 0%;
+	padding:20% 0% 20% 0%;
 }
-.homeRowLeft h1{
-	font-size: 6em;
-	padding-top: 6%;
-	padding-bottom: 5%;
-}
-.homeRowLeft h4{
+#home h1{
 	font-size: 2.5em;
+	margin-top: 50%;
+
+	
+}
+#home h4{
+	font-size: 1em;
+	padding-top: 5%;
 	padding-bottom: 5%;
+	color: black;
+	-webkit-text-stroke: 0px black;
 }
 .buttonHome{
-	font-size: 2em;
+	font-size: 1em;
 	padding: 2%;
 
 }
-.button{
-	padding-top: 3%;
+.button button{
+	width: 200px;
+	height:50px;
 }
 
 .homeLogo{
@@ -284,14 +297,15 @@ text-align: center;
   /*ABOUT*/
 #about{
 	text-align: center;
-	padding-bottom: 10%;
+	padding-top: 20%;
+	padding-bottom: 20%;
 }
 #about h1{
-	font-size: 4em;
+	font-size: 2em;
 }
 .founderImage{
-	width: 20em;
-	height: 20em;
+	width: 8em;
+	height: 8em;
 }
 .naming{
 	padding-top: 5%;
@@ -304,7 +318,8 @@ text-align: center;
 	font-size: 2em;
 }
 .aboutDescription{
-	font-size: 2em;
+	text-align: justify;
+	font-size: 1em;
 	padding-left: 5%;
 	padding-right: 5%;
 
@@ -312,24 +327,22 @@ text-align: center;
 
        /*SERVICES*/
 #service{
-	padding-bottom: 10%;
+	padding-top: 20%;
+	padding-bottom: 20%;
 }
 #service h1{
-	font-size: 4em;
+	font-size: 2em;
 }
 #service p{
-	font-size: 2.5em;
-	padding: 1% 10% 1% 10%;
+	font-size: 1em;
+	padding: 5% 10% 5% 10%;
 }
 .thunder{
-	width: 8em;
-	height: 8em;
-	padding-top: 5%;
-
+	opacity: 0%;
 
 }
 #service h4{
-	font-size: 3em;
+	font-size: 1em;
 	/*padding-bottom: 5%;*/
 }
 
@@ -338,31 +351,33 @@ text-align: center;
 		/*CLIENTS*/
 
 #clients h1{
-	font-size: 4em;
+	font-size: 1.8em;
+	margin-top: 10%;
 }
 #clients p {
-	font-size: 2em;
+	font-size: 1em;
+	text-align: justify;
 }
 #clients h3 {
-	font-size: 3em;
+	font-size: 2em;
 	padding-top: 5%;
 	padding-bottom: 10%;
 }
 #clients h4{
-	padding-top: 4%;
-	font-size: 2.5em;
-	padding-bottom: 5%;
+	padding-top: 5%;
+	font-size: 1em;
+	padding-bottom: 10%;
 }
 .client{
-	width: 8em;
-	height: 8em;
+	width: 6em;
+	height: 6em;
 
 }
 
 		/*CONTACT*/
 
 #contact h1 {
-	font-size: 4em;
+	font-size: 2em;
 	padding-bottom: 5%;
 }
 hr{
@@ -370,6 +385,7 @@ hr{
 	border-width:0;
 	background-color:grey;
 	opacity: 100%;
+	margin: 10% 0%;
 }
 .formQuery{
 	text-align: center;
@@ -377,34 +393,34 @@ hr{
 	font-size: 1em;
 }
 .formClass input{
-	font-size: 3em;
+	font-size: 1em;
 }
 .formClass textarea{
-	font-size: 3em;
+	font-size: 1em;
 
 }
 .formClass label{
-	font-size: 2em;
+	font-size: 1em;
 
 }
 #contact h4 {
-	font-size: 1.5em;
+	font-size: 1em;
 
+}
+#contact p{
+	font-size: 0.5em;
 }
 .contactRight{
 	font-size: 2em;
 }
-#contact .btn{
-	font-size: 3em;
 
-}
-.buttonContact{
-	padding-top: 7%;
-}
+
+
 .socialIcons{
 	text-align: center;
 }
 .size{
-	padding: 5% 4% 5% 4%;
+	font-size: 1em;
+	padding: 1%;
 }
 }
