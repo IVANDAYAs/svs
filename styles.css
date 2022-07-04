@@ -40,7 +40,7 @@ h1{
 	padding-bottom: 0%;
 }
 .ws{
-	color: green;
+	color: #25D366;
 	padding-left: 50px;
 }
 
@@ -215,7 +215,7 @@ hr{
 	/*-webkit-text-stroke: 0.5px white;  */
 }
 #contact strong{
-	color: white;
+	color: #BA922D;
 	text-decoration: underline ;
 }
 .formQuery{
@@ -236,6 +236,7 @@ text-align: center;
 	padding: 4% 8% 4% 10% ;
 	color: white;
 }
+
 #footer{
 	background-color: #BA922D;
 	color: white;
@@ -258,6 +259,10 @@ text-align: center;
 }
 .nav-link{
 	font-size: 1em;
+}
+.ws{
+	padding-top: 10px;
+	padding-left: 0px;
 }
 
 /*home*/
