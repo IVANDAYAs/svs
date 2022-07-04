@@ -54,10 +54,21 @@ h1{
 
 		/*HOME*/
 #home{
-	background-image: url("homeBg.jpg");
+	/*background-image: url("homeBg.jpg");*/
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 5% 4%;
+}
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
 }
 .homeLogo{
 	padding-bottom: 4%;
@@ -291,7 +302,7 @@ text-align: center;
 
 #home{
 	
-	background-image: url("homebg2.jpeg");
+	
 	background-size: contain;
 	background-position: center;
 }
@@ -309,7 +320,7 @@ text-align: center;
 	font-size: 1em;
 	padding-top: 5%;
 	padding-bottom: 5%;
-	color: black;
+	color: white;
 	-webkit-text-stroke: 0px black;
 }
 .buttonHome{
