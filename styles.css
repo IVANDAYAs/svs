@@ -39,6 +39,10 @@ h1{
 	padding-top: 0%;
 	padding-bottom: 0%;
 }
+.ws{
+	color: green;
+	padding-left: 50px;
+}
 
 
 
@@ -46,8 +50,8 @@ h1{
 #home{
 	background-image: url("homeBg.jpg");
 	background-repeat: no-repeat;
-	background-size: fill;
-	padding: 10% 4% 10% 4%;
+	background-size: cover;
+	padding: 5% 4%;
 }
 .homeLogo{
 	padding-bottom: 4%;
@@ -74,7 +78,7 @@ h1{
 
 }*/
 .homeRowLeft{
-	padding: /*5% 40% 5% 0%*/ 8% 0% 5% 0%;
+	padding: 20% 0% 10% 0%;
 	text-align: center;
 	color: white;
 	
@@ -92,14 +96,14 @@ h1{
 
 			/*ABOUT*/
 #about{
-	padding: 5% 4% 6% 4%;
+	padding: 5% 8% 6% 8%;
 	background-image: url("aboutBg.jpg");
 }
 .name{
 	color: blue;
 }
 .aboutRow{
-	padding:5% 5% 0% 5%;
+	padding:5% 2% 0% 5%;
 }
 #about h1{
 	text-align: center;
@@ -118,6 +122,7 @@ h1{
 	font-size: 1.2em;
 	padding-right: 0%;
 	color: black;
+	text-align: justify;
 }
 .founderImage{
 	width: 10em;
@@ -136,7 +141,7 @@ h1{
 
 #service p{
 	text-align: justify;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	padding: 3% 20% 3% 20%;
 	color: white;
 }
@@ -218,6 +223,7 @@ hr{
 	padding: 4% 0% 4% 20% ;
 	color: white;
 }
+
 .socialIcons{
 text-align: center;
 
