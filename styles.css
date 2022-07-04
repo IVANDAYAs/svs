@@ -42,6 +42,12 @@ h1{
 .ws{
 	color: #25D366;
 	padding-left: 50px;
+	animation: mymove1 1s infinite;
+}
+
+@keyframes mymove1 {
+  from {color: white;}
+  to {color: #25D366;}
 }
 
 
@@ -97,7 +103,7 @@ h1{
 			/*ABOUT*/
 #about{
 	padding: 5% 8% 6% 8%;
-	background-image: url("aboutBg.jpg");
+	background-color: black;
 }
 .name{
 	color: blue;
@@ -121,7 +127,7 @@ h1{
 .aboutDescription{
 	font-size: 1.2em;
 	padding-right: 0%;
-	color: black;
+	color: white;
 	text-align: justify;
 }
 .founderImage{
@@ -129,6 +135,22 @@ h1{
 	border-radius: 100%;
 }
 
+			/*PRODUCTS*/
+#products{
+	padding: 5% 10%;
+	background-image: url("aboutBg.jpg");
+}
+.prhead{
+	text-align: center;
+	margin-bottom: 5%;
+	color: #BA922D;
+}
+.card{
+	margin:6% 4%;
+}
+.card:hover{
+	box-shadow: 0 5px 15px #BA922D;
+}
 
 
 			/*SERVICES*/
@@ -336,6 +358,12 @@ text-align: center;
 
 }
 
+		/*PRODUCT*/
+.prhead{
+	margin: 15% 0%;
+}
+
+
        /*SERVICES*/
 #service{
 	padding-top: 20%;
@@ -348,13 +376,13 @@ text-align: center;
 	font-size: 1em;
 	padding: 5% 10% 5% 10%;
 }
-.thunder{
+/*.thunder{
 	opacity: 0%;
 
-}
+}*/
 #service h4{
 	font-size: 1em;
-	/*padding-bottom: 5%;*/
+	padding-top: 10%;
 }
 
 
