@@ -58,6 +58,7 @@ h1{
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 5% 4%;
+	margin: 15% 0%;
 }
 #background-video {
   width: 100vw;
@@ -80,7 +81,7 @@ h1{
 	padding-bottom: 2%;
 	opacity: 90%;
 	color: #BA922D;
-	-webkit-text-stroke: 2px white;  
+	-webkit-text-stroke: 2px black;  
 
 }
 #home h4{
