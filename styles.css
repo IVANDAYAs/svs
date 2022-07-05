@@ -58,7 +58,7 @@ h1{
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 5% 4%;
-	margin: 15% 0%;
+	
 }
 #background-video {
   width: 100vw;
@@ -150,7 +150,7 @@ h1{
 			/*PRODUCTS*/
 #products{
 	padding: 5% 10%;
-	background-image: url("aboutBg.jpg");
+	background-color: white;
 }
 .prhead{
 	text-align: center;
@@ -302,7 +302,7 @@ text-align: center;
 /*home*/
 
 #home{
-	
+	margin: 15% 0%;
 	
 	background-size: contain;
 	background-position: center;
@@ -473,5 +473,9 @@ hr{
 .size{
 	font-size: 1em;
 	padding: 1%;
+}
+
+#footer{
+	padding: 4% 10%;
 }
 }
