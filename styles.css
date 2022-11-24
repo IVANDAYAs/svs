@@ -42,7 +42,13 @@ h1{
 .ws{
 	color: #25D366;
 	padding-left: 50px;
-	animation: mymove1 1s infinite;
+	font-size: 3em;
+	/* animation: mymove1 1s infinite; */
+}
+.li{
+	color: #0779e4;
+	padding-left: 50px;
+	font-size: 3em;
 }
 
 @keyframes mymove1 {
@@ -297,6 +303,7 @@ text-align: center;
 .ws{
 	padding-top: 10px;
 	padding-left: 0px;
+	
 }
 
 /*home*/
