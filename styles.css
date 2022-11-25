@@ -303,11 +303,7 @@ text-align: center;
 .ws{
 	padding-top: 10px;
 	padding-left: 0px;
-	font-size: 1em;
 	
-}
-.li{
-	font-size:1em;
 }
 
 /*home*/
@@ -374,7 +370,7 @@ text-align: center;
 	font-size: 2em;
 }
 .aboutDescription{
-	text-align: justify;
+	text-align: left;
 	font-size: 1em;
 	padding-left: 5%;
 	padding-right: 5%;
@@ -396,6 +392,7 @@ text-align: center;
 	font-size: 2em;
 }
 #service p{
+	text-align: left;
 	font-size: 1em;
 	padding: 5% 10% 5% 10%;
 }
