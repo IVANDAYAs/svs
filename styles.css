@@ -303,7 +303,11 @@ text-align: center;
 .ws{
 	padding-top: 10px;
 	padding-left: 0px;
+	font-size: 1em;
 	
+}
+.li{
+	font-size: 1em;
 }
 
 /*home*/
